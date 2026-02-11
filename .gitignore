@@ -19,3 +19,6 @@ target/
 # Do not commit cargo lockfiles since they create git history churn and are not
 # necessarily compatible across different Rust versions.
 Cargo.lock
+
+# bazel
+**/MODULE.bazel.lock
