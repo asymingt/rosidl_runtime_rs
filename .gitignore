@@ -16,9 +16,5 @@ target/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Do not commit cargo lockfiles since they create git history churn and are not
-# necessarily compatible across different Rust versions.
-Cargo.lock
-
 # bazel
 **/MODULE.bazel.lock
